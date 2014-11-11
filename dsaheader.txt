@@ -1,0 +1,31 @@
+class HeartRate
+{
+private:
+	string firstname;
+	string lastname;
+	string datebirth;
+	string month;
+	string day;
+	string year;
+	string heartbeats_minute;
+public:
+	HeartRate();
+	HeartRate(string firstname, string lastname, string datebirth, string month, string day, string year);
+	void setfirstname(string firstname);
+	void setlastname(string lastname);
+	void setdatebirth(string datebirth);
+	void setmonth(string month);
+	void setday(string day);
+	void setyear(string year);
+	int getmaximumheartrate();
+	int gettargetheartrate();
+	bool setheartbeats_minute(int age, int heartbeatinminute);
+	string getfirstname();
+	string getlastname();
+	string getdatebirth();
+	string getmonth();
+	string getday();
+	string getyear();
+	string getheartbeats_minute();
+
+};
